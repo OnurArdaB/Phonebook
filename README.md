@@ -175,3 +175,35 @@ Exiting...
             |   |           |-- PATRICIA GOODE
             |__ SHIRLEY MICKELSON
 ```
+## Traverse Nodes
+```go
+func TraverseNodes(sb *strings.Builder,padding string,pointer string,node*TreeNode,hasRight bool){
+	if (node != nil) {
+		sb.WriteString("\n");
+		sb.WriteString(padding);
+		sb.WriteString(pointer);
+		sb.WriteString(node.firstName + " " +node.secondName);
+
+		paddingBuilder :=  strings.Builder{}
+		paddingBuilder.WriteString(padding)
+		if (hasRight) {
+			paddingBuilder.WriteString("│  ");
+		} else {
+			paddingBuilder.WriteString("   ");
+		}
+
+		paddingForBoth := paddingBuilder.String();
+		pointerRight := "└──";
+		var pointerLeft string
+		if(node.right!=nil){
+			pointerLeft = "├──"
+		}else{
+			pointerLeft =  "└──"
+		}
+
+		TraverseNodes(sb, paddingForBoth, pointerLeft, node.left, HasRight(node))
+		TraverseNodes(sb, paddingForBoth, pointerRight, node.right, false)
+	}
+
+}
+```
