@@ -175,6 +175,7 @@ Exiting...
             |   |           |-- PATRICIA GOODE
             |__ SHIRLEY MICKELSON
 ```
+# Printing in Tree Structure
 ## Traverse Nodes
 ```go
 func TraverseNodes(sb *strings.Builder,padding string,pointer string,node*TreeNode,hasRight bool){
@@ -205,5 +206,25 @@ func TraverseNodes(sb *strings.Builder,padding string,pointer string,node*TreeNo
 		TraverseNodes(sb, paddingForBoth, pointerRight, node.right, false)
 	}
 
+}
+```
+
+```go
+func TraversePreOrder(ROOT * TreeNode)string{
+	if(ROOT == nil){
+		return ""
+	}
+	sb:=strings.Builder{}
+	sb.WriteString(ROOT.firstName + " " +ROOT.secondName)
+	var pointerRight = "└──"
+	var pointerLeft string
+	if(ROOT.right!=nil){
+		pointerLeft = "├──"
+	}else{
+		pointerLeft = "└──"
+	}
+	TraverseNodes(&sb, "", pointerLeft, ROOT.left, HasRight(ROOT));
+	TraverseNodes(&sb, "", pointerRight, ROOT.right, false)
+	return sb.String()
 }
 ```
