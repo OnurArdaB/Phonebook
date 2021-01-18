@@ -1,0 +1,16 @@
+John Watson
+├──Charles Smith
+│  ├──Ashley Tirado
+│  │  ├──Ashley Jepsen
+│  │  └──Charity Ruggiero
+│  │     └──Carolyn Johnson
+│  └──Frank Thompson
+│     ├──Elbert Womack
+│     └──Harold Stenseth
+└──Rhonda Cashion
+   ├──Pamela Alexander
+   │  ├──Norman Ho
+   │  └──Patricia Goode
+   └──Sharon Persaud
+      ├──Roger Jochim
+      └──Shirley Mickelson

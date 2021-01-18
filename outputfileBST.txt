@@ -1,0 +1,16 @@
+Harold Stenseth
+├──Frank Thompson
+│  └──Ashley Tirado
+│     ├──Ashley Jepsen
+│     └──Charles Smith
+│        ├──Charity Ruggiero
+│        │  └──Carolyn Johnson
+│        └──Elbert Womack
+└──John Watson
+   └──Sharon Persaud
+      ├──Roger Jochim
+      │  └──Norman Ho
+      │     └──Pamela Alexander
+      │        └──Rhonda Cashion
+      │           └──Patricia Goode
+      └──Shirley Mickelson

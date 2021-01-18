@@ -1,0 +1,16 @@
+|__ JOHN WATSON
+    |-- CHARLES SMITH
+    |   |-- ASHLEY TIRADO
+    |   |   |-- ASHLEY JEPSEN
+    |   |   |__ CHARITY RUGGIERO
+    |   |       |-- CAROLYN JOHNSON
+    |   |__ FRANK THOMPSON
+    |       |-- ELBERT WOMACK
+    |       |__ HAROLD STENSETH
+    |__ RHONDA CASHION
+        |-- PAMELA ALEXANDER
+        |   |-- NORMAN HO
+        |   |__ PATRICIA GOODE
+        |__ SHARON PERSAUD
+            |-- ROGER JOCHIM
+            |__ SHIRLEY MICKELSON

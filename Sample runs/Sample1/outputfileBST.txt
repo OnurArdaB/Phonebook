@@ -1,0 +1,16 @@
+|__ HAROLD STENSETH
+    |-- FRANK THOMPSON
+    |   |-- ASHLEY TIRADO
+    |   |   |-- ASHLEY JEPSEN
+    |   |   |__ CHARLES SMITH
+    |   |       |-- CHARITY RUGGIERO
+    |   |       |   |-- CAROLYN JOHNSON
+    |   |       |__ ELBERT WOMACK
+    |__ JOHN WATSON
+        |__ SHARON PERSAUD
+            |-- ROGER JOCHIM
+            |   |-- NORMAN HO
+            |   |   |__ PAMELA ALEXANDER
+            |   |       |__ RHONDA CASHION
+            |   |           |-- PATRICIA GOODE
+            |__ SHIRLEY MICKELSON
