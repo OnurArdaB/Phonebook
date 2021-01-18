@@ -1,7 +1,7 @@
 ## Manual 
 
 This is a simple console program which uses Binary Search Tree and AVL Tree 
-for the process of holding the data.The program is implemented in GO.
+for the process of holding the data.
 
 Options:
 
